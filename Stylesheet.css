@@ -144,13 +144,16 @@ h1, h2, h3 {
     background-repeat: no-repeat;
     display: flex;
 }
+
 .form{
     margin-top: -700px;
 }
-.input[type=text],select {
+.input[type=text],select, textarea {
           width: 100%;
-             padding: 12px 20px;
-             margin: 8px 0;
+             padding: 12px;
+             margin top: 6px;
+             margin-bottom: 16px;
+             resize: vertical;     
              display: inline-block;
              border: 1px solid #000;
              border-radius: 4px;
@@ -189,3 +192,7 @@ h1, h2, h3 {
       .input[type=submit]:hover {
           background-color: coral;
       } 
+#wowslider-container0 {
+    width: 10%;
+    
+}
